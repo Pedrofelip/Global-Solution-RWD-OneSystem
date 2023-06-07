@@ -38,3 +38,48 @@
     justify-content: center;
     align-items: center;
 }
+
+.alinhamento_banner {
+    width: 87%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.alinhamento_banner2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.setas_banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.seta_anterior {
+    width: 3.5%;
+    height: 65px;
+    border-radius: 50px;
+    background-color: #1d2d4400;
+    border: none;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.seta_proximo {
+    width: 3.5%;
+    height: 65px;
+    border-radius: 50px;
+    background-color: #1d2d4400;
+    border: none;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
