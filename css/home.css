@@ -1,0 +1,40 @@
+.banner_inicio {
+    width: 100%;
+    height: 730px;
+}
+
+.card1 {
+    width: 100%;
+    height: 730px;
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgb(0, 0, 0)), url(../img/agricultor-agronomo-senior-trabalhador-no-campo-de-soja-verificando-as-colheitas-antes-da-colheita.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card2 {
+    width: 100%;
+    height: 730px;
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/feira.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card3 {
+    width: 100%;
+    height: 730px;
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/doacao.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
