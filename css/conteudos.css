@@ -1,0 +1,42 @@
+.fundo_conteudo{
+    width: 100%;
+    height: 770px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap_conteudo{
+    width: 85%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #48734B;
+    border-radius: 25px;
+}
+
+.container_conteudo{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container_conteudo > img{
+    border-radius: 25px;
+}
+
+.texto{
+    width: 50%;
+    height: 65%;
+}
+
+.texto > h2{
+    font-family: 'Dongle', sans-serif;
+    font-weight: 700;
+    color: #48734B;
+    font-size: 100px;
+    text-transform: uppercase;
+}
