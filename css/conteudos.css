@@ -26,6 +26,7 @@
 
 .container_conteudo > img{
     border-radius: 25px;
+    width: 40%;
 }
 
 .texto{
